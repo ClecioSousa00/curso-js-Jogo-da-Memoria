@@ -5,4 +5,5 @@
     justify-content: center;
     align-items: center;
     background-color: var(--card-game-bg-color);
+    border: .4rem solid #FFFCEE;
 }
