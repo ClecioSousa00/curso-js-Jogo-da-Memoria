@@ -26,7 +26,10 @@
 import "./src/styles/global.css"
 
 import CardGame from "./src/components/CardGame"
-const root = document.querySelector('#root')
-const htmlCardGame = CardGame()
+import BoardGame from "./src/objects/BoardGame"
 
-root.insertAdjacentHTML('beforeend', htmlCardGame)
+const root = document.querySelector('#root')
+const htmlBoardGame = BoardGame(6)
+
+
+root.insertAdjacentHTML('beforeend', htmlBoardGame)
