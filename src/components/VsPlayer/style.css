@@ -1,0 +1,6 @@
+
+.vs-player{
+    text-transform: uppercase;
+    color: var(--color-name-vs);
+    font-size: 0.8rem;
+}

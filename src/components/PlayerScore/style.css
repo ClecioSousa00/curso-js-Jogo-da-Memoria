@@ -1,0 +1,16 @@
+
+.player-score{
+    width: 5rem;
+    height: 2rem;
+    background-color: #fff;
+    border: .1rem solid var(--card-game-back-color);
+    display: flex;
+    gap: .1rem;
+    list-style-type: none;
+    padding: .1rem;
+}
+
+.player-score li{
+    width: 33%;
+    background-color: var(--old-silver);
+}
