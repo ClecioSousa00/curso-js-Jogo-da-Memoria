@@ -35,4 +35,4 @@ const root = document.querySelector('#root')
 
 
 
-root.insertAdjacentHTML('beforeend', `${ScoreBoard()} ${BoardGame(2)}`)
+root.insertAdjacentHTML('beforeend', `${ScoreBoard()} ${BoardGame(6)}`)

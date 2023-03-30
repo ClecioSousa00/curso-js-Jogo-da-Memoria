@@ -1,6 +1,7 @@
 .board-game{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     place-items: center;
+    row-gap: 1.5rem;
     perspective: 40rem;
 }
