@@ -5,7 +5,7 @@ import "./style.css"
     const cardSelect = event.target.closest('.card-front-back')
     cardSelect.classList.toggle('active')
 }
-function CardFrontBack(){
+function CardFrontBack(icon, alt){
    
     return /*html*/`
         <article class="card-front-back" onclick="handleClick(event)">
@@ -13,7 +13,7 @@ function CardFrontBack(){
                 ${CardGame()}
             </div>
             <div class="card-back">
-                ${CardGame('javascript','logo do javascript')}
+                ${CardGame(icon,alt)}
             </div>
             
         </article>
