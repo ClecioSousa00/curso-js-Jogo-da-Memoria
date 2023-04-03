@@ -38,6 +38,7 @@ function BoardGame(amountCards){
     return /*html*/`
         <section class="board-game" onclick="boardGame.handleClick()">
             ${htmlCards}
+            ${htmlCards}
         </section>
     `
 }
